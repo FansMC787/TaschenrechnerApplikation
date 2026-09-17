@@ -28,12 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            WillkomensText = new Label();
+            button1 = new Button();
+            SuspendLayout();
+            // 
+            // WillkomensText
+            // 
+            WillkomensText.AutoSize = true;
+            WillkomensText.Location = new Point(32, 33);
+            WillkomensText.Name = "WillkomensText";
+            WillkomensText.Size = new Size(368, 25);
+            WillkomensText.TabIndex = 0;
+            WillkomensText.Text = "Willkommen zur Taschenrechner-Applikation!";
+            WillkomensText.Click += label1_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(32, 211);
+            button1.Name = "button1";
+            button1.Size = new Size(33, 34);
+            button1.TabIndex = 1;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
+            Controls.Add(WillkomensText);
+            Name = "Form1";
             Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label WillkomensText;
+        private Button button1;
     }
 }
