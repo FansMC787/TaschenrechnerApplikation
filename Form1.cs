@@ -6,22 +6,12 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
-        double zahl1 = 0;
-        double zahl2 = 0;
-        double ergebnis = 0;
+        ResultForm resultForm = new ResultForm();
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
             
         }
     }
-}
