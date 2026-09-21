@@ -1,5 +1,5 @@
 # TaschenrechnerApplikation
-Hier werde ich meine Programmier Fähigkeiten weiteraufbauen und möchte einen 2DSpiel Jump'n Run Programmieren.
+Hier werde ich meine Programmier Fähigkeiten weiteraufbauen und eine Taschenrechnerapplikation erstellen.
 
 ## Grob-Planung
 Ich werde eine Taschenrechner Programmieren mit verschieden Operatoren.
